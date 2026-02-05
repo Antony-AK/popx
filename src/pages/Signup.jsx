@@ -70,7 +70,7 @@ export default function Signup() {
 
 
     return (
-        <div className="p-6 flex flex-col h-full">
+        <div className="p-6 flex flex-col h-screen mt-28">
             {/* Heading */}
             <h2 className="text-[22px] font-bold mb-6 leading-snug">
                 Create your <br /> PopX account
@@ -250,7 +250,7 @@ export default function Signup() {
             </div>
 
             {/* Button */}
-            <div className="mt-auto">
+            <div className="">
                 <Button text="Create Account" onClick={handleSignup} />
             </div>
         </div>
