@@ -250,7 +250,7 @@ export default function Signup() {
             </div>
 
             {/* Button */}
-            <div className="mt-20">
+            <div className="mt-28">
                 <Button text="Create Account" onClick={handleSignup} />
             </div>
         </div>
