@@ -10,7 +10,7 @@ import { Toaster } from "react-hot-toast";
 
 export default function App() {
   return (
-    <div className="h-screen bg-gray-100 flex  items-center justify-center">
+    <div className="h-screen bg-white flex  items-center justify-center">
       <div className="w-[380px] h-[800px] md:max-h-[730px] bg-white  shadow-lg overflow-hidden">
         <Routes>
           <Route path="/" element={<Landing />} />

@@ -70,7 +70,7 @@ export default function Signup() {
 
 
     return (
-        <div className="p-6 flex flex-col h-screen mt-28">
+        <div className="p-6 flex flex-col h-screen ">
             {/* Heading */}
             <h2 className="text-[22px] font-bold mb-6 leading-snug">
                 Create your <br /> PopX account
